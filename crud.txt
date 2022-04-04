@@ -1,0 +1,11 @@
+create table test(
+admin varchar(50)
+user varchar(50)
+no num(10)
+)
+select * from test
+update test.admin set "testAdmin" where no = 1
+alter table "test" drop "user"
+
+
+
